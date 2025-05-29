@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c28d549cfb2260f4a867852d9ae1b8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c28d549cfb2260f4a867852d9ae1b8b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c28d549cfb2260f4a867852d9ae1b8b = L.map(
+                "map_2c28d549cfb2260f4a867852d9ae1b8b",
+                {
+                    center: [25.0, 50.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f3137a0d93e34c223ae063dd5c85d83 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var marker_36b833924ce2c930bf0152d88b68c1eb = L.marker(
+                [33.3152, 44.3661],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_37acf4b7720346667155c7596f04b3e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8768a34b88c3601f6dccda670f96df0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c033f77d50ccaebccc991e29009488e = $(`<div id="html_8c033f77d50ccaebccc991e29009488e" style="width: 100.0%; height: 100.0%;">Iraq - Most Popular Sport - Football (soccer), World Cup Qualifications - 1, Asian Cups - 1, Arab Cups - 4, Biggest Stadium - Basra International Stadium (65,227), Most Successful Club - Al Zawraa (14 league titles)</div>`)[0];
+                popup_e8768a34b88c3601f6dccda670f96df0.setContent(html_8c033f77d50ccaebccc991e29009488e);
+            
+        
+
+        marker_36b833924ce2c930bf0152d88b68c1eb.bindPopup(popup_e8768a34b88c3601f6dccda670f96df0)
+        ;
+
+        
+    
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+            var marker_a013ed5be9bbf4f4d56afc6718cd0b87 = L.marker(
+                [29.9537564, 31.5370003],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_eb220d9035111cdb5e9449d96657d42f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f79a91a7dc957000dde330858b3a8c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d42999b688e9c2811ff24c9254e3f7d = $(`<div id="html_0d42999b688e9c2811ff24c9254e3f7d" style="width: 100.0%; height: 100.0%;">Egypt - Most Popular Sport - Football (soccer), World Cup Qualifications - 3, African Cups - 7, Arab Cups - 1, Biggest Stadium - Misr Stadium (93,940), Most Successful Club - Al Ahly (45 league titles) </div>`)[0];
+                popup_f79a91a7dc957000dde330858b3a8c2f.setContent(html_0d42999b688e9c2811ff24c9254e3f7d);
+            
+        
+
+        marker_a013ed5be9bbf4f4d56afc6718cd0b87.bindPopup(popup_f79a91a7dc957000dde330858b3a8c2f)
+        ;
+
+        
+    
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+            var marker_00711b282889034f0210b5ffbf4a13aa = L.marker(
+                [22.7554385, 46.2091547],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_bd795771ce914bd61290b1b13b12bc26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f7e44b4ef814a9d83736e17e057d41d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6937c3a22c62bc050432d641b9cb464c = $(`<div id="html_6937c3a22c62bc050432d641b9cb464c" style="width: 100.0%; height: 100.0%;">Saudi Arabia - Most Popular Sport - Football (soccer), World Cup Qualifications - 6, Asian Cups - 3, Arab Cups - 2, Biggest Stadium - King Fahd Sports City Stadium (70,000), Most Successful Club - Al Hilal (19 league titles</div>`)[0];
+                popup_8f7e44b4ef814a9d83736e17e057d41d.setContent(html_6937c3a22c62bc050432d641b9cb464c);
+            
+        
+
+        marker_00711b282889034f0210b5ffbf4a13aa.bindPopup(popup_8f7e44b4ef814a9d83736e17e057d41d)
+        ;
+
+        
+    
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+            var marker_505c44cb9601ca681d76520bd442c970 = L.marker(
+                [24.4667, 54.3667],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_904ecc59c0f7d78dfab9f804ae55409e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87b6a54011eb0bfc114ac24e87ab0bf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d69211ce930ebfefe2590467749e9f2e = $(`<div id="html_d69211ce930ebfefe2590467749e9f2e" style="width: 100.0%; height: 100.0%;">United Arab Emirates - Most Popular Sport - Football (soccer), World Cup Qualifications - 1, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Zayed Sports City Stadium (44,250), Most Successful Club - Al Ain (14 league titles)</div>`)[0];
+                popup_87b6a54011eb0bfc114ac24e87ab0bf8.setContent(html_d69211ce930ebfefe2590467749e9f2e);
+            
+        
+
+        marker_505c44cb9601ca681d76520bd442c970.bindPopup(popup_87b6a54011eb0bfc114ac24e87ab0bf8)
+        ;
+
+        
+    
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+            var marker_821a85bae9ce93fd0e19c019339e4e8a = L.marker(
+                [33.5132, 36.2768],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_68f0fd58c678b12da815109dafc10794 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_185d971f603db3e2688b4b864ba52376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef8d8794c054ceaae65aa107280d199c = $(`<div id="html_ef8d8794c054ceaae65aa107280d199c" style="width: 100.0%; height: 100.0%;">Syria - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Aleppo International Stadium (53,200), Most Successful Club - Al Jaish (17 league titles)</div>`)[0];
+                popup_185d971f603db3e2688b4b864ba52376.setContent(html_ef8d8794c054ceaae65aa107280d199c);
+            
+        
+
+        marker_821a85bae9ce93fd0e19c019339e4e8a.bindPopup(popup_185d971f603db3e2688b4b864ba52376)
+        ;
+
+        
+    
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+            var marker_94216bab22015c88ae76706f4cd6df83 = L.marker(
+                [39.9334, 32.8597],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_0927821e095cc20b059fb35c5672de89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5289c4be3be5c1f43b0b4acfd034b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e5e5288aa3c2b9c6750b563205e7e4c = $(`<div id="html_8e5e5288aa3c2b9c6750b563205e7e4c" style="width: 100.0%; height: 100.0%;">Turkey - Most Popular Sport - Football (soccer), World Cup Qualifications - 3, Euros - 0, Biggest Stadium - Ataturk Olympic Stadium (77,563), Most Successful Club - Fenerbahce (28 league titles)</div>`)[0];
+                popup_c5289c4be3be5c1f43b0b4acfd034b1d.setContent(html_8e5e5288aa3c2b9c6750b563205e7e4c);
+            
+        
+
+        marker_94216bab22015c88ae76706f4cd6df83.bindPopup(popup_c5289c4be3be5c1f43b0b4acfd034b1d)
+        ;
+
+        
+    
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+            var marker_a32d9d16f02ece407b23cb93bc91eca9 = L.marker(
+                [35.6944, 51.4215],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_09f1f13fb2cbc9ddcf9d21b2d0d99501 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8493cd4c1b2e56a503ff545770fba1bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3895edd314d0b464e95d5654654c6c7b = $(`<div id="html_3895edd314d0b464e95d5654654c6c7b" style="width: 100.0%; height: 100.0%;">Iran - Most Popular Sport - Football (soccer), World Cup Qualifications - 7, Asian Cups - 3, Biggest Stadium - Azadi Stadium (78,116), Most Successful Club - Persepolis (16 league titles</div>`)[0];
+                popup_8493cd4c1b2e56a503ff545770fba1bf.setContent(html_3895edd314d0b464e95d5654654c6c7b);
+            
+        
+
+        marker_a32d9d16f02ece407b23cb93bc91eca9.bindPopup(popup_8493cd4c1b2e56a503ff545770fba1bf)
+        ;
+
+        
+    
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+            var marker_cbcd864bd292e2061ededec7e22273ec = L.marker(
+                [31.7638, 35.2137],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_48dbcd85adc4101ced30bf2c4cefb7cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9018138c6031ae8e86e1f58d254b8ece = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e793e127fc7808a9b799f4885a4109b5 = $(`<div id="html_e793e127fc7808a9b799f4885a4109b5" style="width: 100.0%; height: 100.0%;">Palestine - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Yatta International Stadium (20,000), Most Successful Club - Shabab Al Khalil (7 league titles</div>`)[0];
+                popup_9018138c6031ae8e86e1f58d254b8ece.setContent(html_e793e127fc7808a9b799f4885a4109b5);
+            
+        
+
+        marker_cbcd864bd292e2061ededec7e22273ec.bindPopup(popup_9018138c6031ae8e86e1f58d254b8ece)
+        ;
+
+        
+    
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+            var marker_80245109c6fb11292f1b55641892551c = L.marker(
+                [31.9544, 35.9106],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_a3ae6a434498e8d2128af681f7481a0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3982fde8c1e38517164ea691438d8737 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c3a37c4091223c0894c36452d591da5 = $(`<div id="html_7c3a37c4091223c0894c36452d591da5" style="width: 100.0%; height: 100.0%;">Jordan - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Amman International Stadium (17,619), Most Successful Club - Al Faisaly (35 league titles)</div>`)[0];
+                popup_3982fde8c1e38517164ea691438d8737.setContent(html_7c3a37c4091223c0894c36452d591da5);
+            
+        
+
+        marker_80245109c6fb11292f1b55641892551c.bindPopup(popup_3982fde8c1e38517164ea691438d8737)
+        ;
+
+        
+    
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+            var marker_dcfce9ef5946c98a52233c7cfcea58c2 = L.marker(
+                [25.2793, 51.5225],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_79410d8afaaf781a54237e98f0c4df43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71b24c04ad867207d2762ca09a55f927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41a5952b1e924ca5941dc2b200440755 = $(`<div id="html_41a5952b1e924ca5941dc2b200440755" style="width: 100.0%; height: 100.0%;">Qatar - Most Popular Sport - Football (soccer), World Cup Qualifications - 1 (as hosts), Asian Cups - 2, Arab Cups - 0, Biggest Stadium - Lusail Stadium (88,966), Most Successful Club - Al Sadd (18 league titles)</div>`)[0];
+                popup_71b24c04ad867207d2762ca09a55f927.setContent(html_41a5952b1e924ca5941dc2b200440755);
+            
+        
+
+        marker_dcfce9ef5946c98a52233c7cfcea58c2.bindPopup(popup_71b24c04ad867207d2762ca09a55f927)
+        ;
+
+        
+    
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+            var marker_c6d242142389ab89e63641ddcc4d121e = L.marker(
+                [29.378586, 47.990341],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_8c716f9d01e1b7afa8244cac55f8c83f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_146602ee7c4a1faafb3eb67d5b8edcfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e68264dc773ecb971da04ba25f62f063 = $(`<div id="html_e68264dc773ecb971da04ba25f62f063" style="width: 100.0%; height: 100.0%;">Kuwait - Most Popular Sport - Football (soccer), World Cup Qualifications - 1, Asian Cups - 1, Arab Cups - 0, Biggest Stadium - Jaber Al-Ahmad International Stadium (60,000), Most Successful Club - Kuwait SC (20 titles</div>`)[0];
+                popup_146602ee7c4a1faafb3eb67d5b8edcfc.setContent(html_e68264dc773ecb971da04ba25f62f063);
+            
+        
+
+        marker_c6d242142389ab89e63641ddcc4d121e.bindPopup(popup_146602ee7c4a1faafb3eb67d5b8edcfc)
+        ;
+
+        
+    
+    
+                marker_c6d242142389ab89e63641ddcc4d121e.setIcon(icon_8c716f9d01e1b7afa8244cac55f8c83f);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+                marker_c6d242142389ab89e63641ddcc4d121e.setIcon(icon_8c716f9d01e1b7afa8244cac55f8c83f);
+            
+    
+            var marker_c5cf5b0e860488142efe85e4723d3517 = L.marker(
+                [23.6139, 58.5922],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_9e4a1a538b372436ded0051fd73ee3f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_989d2d010c03576815ea13bb963de9e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2c04f87d1f4b4ba17e09f046b23a257 = $(`<div id="html_c2c04f87d1f4b4ba17e09f046b23a257" style="width: 100.0%; height: 100.0%;">Oman - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Sultan Qaboos Stadium (28,000), Most Successful Club - Dhofar (12 league titles</div>`)[0];
+                popup_989d2d010c03576815ea13bb963de9e3.setContent(html_c2c04f87d1f4b4ba17e09f046b23a257);
+            
+        
+
+        marker_c5cf5b0e860488142efe85e4723d3517.bindPopup(popup_989d2d010c03576815ea13bb963de9e3)
+        ;
+
+        
+    
+    
+                marker_c5cf5b0e860488142efe85e4723d3517.setIcon(icon_9e4a1a538b372436ded0051fd73ee3f7);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+                marker_c6d242142389ab89e63641ddcc4d121e.setIcon(icon_8c716f9d01e1b7afa8244cac55f8c83f);
+            
+    
+                marker_c5cf5b0e860488142efe85e4723d3517.setIcon(icon_9e4a1a538b372436ded0051fd73ee3f7);
+            
+    
+            var marker_fed03320058a64b47a37fbd2fc2e4ea8 = L.marker(
+                [15.3547, 44.2067],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_e2e38c3243b949a274d908f2b21182cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4dc46b252c6495e0ca98eaca88ce82c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc0edb6ce68a2a0d7d660170dae5730 = $(`<div id="html_bfc0edb6ce68a2a0d7d660170dae5730" style="width: 100.0%; height: 100.0%;">Yemen - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - 22 May Stadium (40,000), Most Successful Club - Al Ahli Sanaa (11 league titles)</div>`)[0];
+                popup_4dc46b252c6495e0ca98eaca88ce82c8.setContent(html_bfc0edb6ce68a2a0d7d660170dae5730);
+            
+        
+
+        marker_fed03320058a64b47a37fbd2fc2e4ea8.bindPopup(popup_4dc46b252c6495e0ca98eaca88ce82c8)
+        ;
+
+        
+    
+    
+                marker_fed03320058a64b47a37fbd2fc2e4ea8.setIcon(icon_e2e38c3243b949a274d908f2b21182cd);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+                marker_c6d242142389ab89e63641ddcc4d121e.setIcon(icon_8c716f9d01e1b7afa8244cac55f8c83f);
+            
+    
+                marker_c5cf5b0e860488142efe85e4723d3517.setIcon(icon_9e4a1a538b372436ded0051fd73ee3f7);
+            
+    
+                marker_fed03320058a64b47a37fbd2fc2e4ea8.setIcon(icon_e2e38c3243b949a274d908f2b21182cd);
+            
+    
+            var marker_eb605b138ff62a75e28245ebf1c233b0 = L.marker(
+                [33.8938, 35.5018],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_a12eee6bd2b04f5ddd25495f7a752116 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_004a85c2ed6c949e25406a7c589e4470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c1b74227a19631a5bb6ac53faf47739 = $(`<div id="html_3c1b74227a19631a5bb6ac53faf47739" style="width: 100.0%; height: 100.0%;">Lebanon - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Camille Chamoun Sports City Stadium (49,500), Most Successful Club - Ansar (14 league titles)</div>`)[0];
+                popup_004a85c2ed6c949e25406a7c589e4470.setContent(html_3c1b74227a19631a5bb6ac53faf47739);
+            
+        
+
+        marker_eb605b138ff62a75e28245ebf1c233b0.bindPopup(popup_004a85c2ed6c949e25406a7c589e4470)
+        ;
+
+        
+    
+    
+                marker_eb605b138ff62a75e28245ebf1c233b0.setIcon(icon_a12eee6bd2b04f5ddd25495f7a752116);
+            
+    
+            tile_layer_4f3137a0d93e34c223ae063dd5c85d83.addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+                marker_36b833924ce2c930bf0152d88b68c1eb.setIcon(icon_37acf4b7720346667155c7596f04b3e2);
+            
+    
+                marker_a013ed5be9bbf4f4d56afc6718cd0b87.setIcon(icon_eb220d9035111cdb5e9449d96657d42f);
+            
+    
+                marker_00711b282889034f0210b5ffbf4a13aa.setIcon(icon_bd795771ce914bd61290b1b13b12bc26);
+            
+    
+                marker_505c44cb9601ca681d76520bd442c970.setIcon(icon_904ecc59c0f7d78dfab9f804ae55409e);
+            
+    
+                marker_821a85bae9ce93fd0e19c019339e4e8a.setIcon(icon_68f0fd58c678b12da815109dafc10794);
+            
+    
+                marker_94216bab22015c88ae76706f4cd6df83.setIcon(icon_0927821e095cc20b059fb35c5672de89);
+            
+    
+                marker_a32d9d16f02ece407b23cb93bc91eca9.setIcon(icon_09f1f13fb2cbc9ddcf9d21b2d0d99501);
+            
+    
+                marker_cbcd864bd292e2061ededec7e22273ec.setIcon(icon_48dbcd85adc4101ced30bf2c4cefb7cc);
+            
+    
+                marker_80245109c6fb11292f1b55641892551c.setIcon(icon_a3ae6a434498e8d2128af681f7481a0c);
+            
+    
+                marker_dcfce9ef5946c98a52233c7cfcea58c2.setIcon(icon_79410d8afaaf781a54237e98f0c4df43);
+            
+    
+                marker_c6d242142389ab89e63641ddcc4d121e.setIcon(icon_8c716f9d01e1b7afa8244cac55f8c83f);
+            
+    
+                marker_c5cf5b0e860488142efe85e4723d3517.setIcon(icon_9e4a1a538b372436ded0051fd73ee3f7);
+            
+    
+                marker_fed03320058a64b47a37fbd2fc2e4ea8.setIcon(icon_e2e38c3243b949a274d908f2b21182cd);
+            
+    
+                marker_eb605b138ff62a75e28245ebf1c233b0.setIcon(icon_a12eee6bd2b04f5ddd25495f7a752116);
+            
+    
+            var marker_574454a8380823646ef89bf2a6da8e1a = L.marker(
+                [26.2154, 50.5832],
+                {
+}
+            ).addTo(map_2c28d549cfb2260f4a867852d9ae1b8b);
+        
+    
+            var icon_9b0544f8e9adce00940c03746cdebfa3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f56151f9fcebe38bb8ef4a9607ccf913 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f720561be6927c4ebf329139ec0ff70 = $(`<div id="html_4f720561be6927c4ebf329139ec0ff70" style="width: 100.0%; height: 100.0%;">Bahrain - Most Popular Sport - Football (soccer), World Cup Qualifications - 0, Asian Cups - 0, Arab Cups - 0, Biggest Stadium - Bahrain National Stadium (24,000), Most Successful Club - Al Muharraq (35 league titles)</div>`)[0];
+                popup_f56151f9fcebe38bb8ef4a9607ccf913.setContent(html_4f720561be6927c4ebf329139ec0ff70);
+            
+        
+
+        marker_574454a8380823646ef89bf2a6da8e1a.bindPopup(popup_f56151f9fcebe38bb8ef4a9607ccf913)
+        ;
+
+        
+    
+    
+                marker_574454a8380823646ef89bf2a6da8e1a.setIcon(icon_9b0544f8e9adce00940c03746cdebfa3);
+            
+</script>
+</html>
